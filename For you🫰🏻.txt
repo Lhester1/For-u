@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HelloWorld;
+
+public static class Program
+{
+    public static void Main()
+    {
+        Console.Write("Enter you name: ");
+        String name = Console.ReadLine();
+
+        Console.Write("Enter your Town: ");
+        string town = Console.ReadLine();
+
+        Console.Write("Enter your age: ");
+        int age = int.Parse(Console.ReadLine());
+
+        Console.WriteLine(" Hello " + name + " mylove! " + "from " + town);
+        Console.WriteLine("hope your doing fine,imissyou sooo muchhh :<<");
+
+
+
+        Console.ReadKey(true);
+    }
+}
+
